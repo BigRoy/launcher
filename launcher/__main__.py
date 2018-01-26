@@ -63,7 +63,7 @@ def cli():
                         "AVALON_SILO",
                         "AVALON_TASK",
                         "AVALON_APP",):
-        os.environ[placeholder] = "__placeholder__"
+        os.environ[placeholder] = ""
 
     # Expose dependencies to Launcher
     sys.path[:] = [
